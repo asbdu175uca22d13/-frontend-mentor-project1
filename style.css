@@ -1,0 +1,24 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.bento-card {
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bento-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+.bg-purple { background-color: hsl(256, 67%, 59%); }
+.bg-yellow { background-color: hsl(39, 100%, 71%); }
+.bg-pink   { background-color: hsl(12, 88%, 72%); }
+.bg-blue   { background-color: hsl(228, 56%, 40%); }
+.bg-green  { background-color: hsl(154, 59%, 51%); }
+
+.highlight {
+  color: hsl(39, 100%, 71%);
+}
